@@ -1,11 +1,13 @@
 import React from 'react';
 import logo from '../icons/logo.svg';
+import MusicPlayerView from './MusicPlayerView';
+import SidePanelView from './SidePanelView';
 
 function F8RTYMusicPlayer() {
 	return (
-		<div>
-			<div>This is the music player custom component.</div>
-			<img src={logo} className="App-logo" alt="logo" />
+		<div>	
+			<MusicPlayerView/>
+			<SidePanelView />
 		</div>
 	);
 }
