@@ -23,15 +23,19 @@ class SidePanelView extends React.Component {
 	render() {
 		return (
 			<div id={this.props.componentId} style={{ width: this.width }} className='sidePanel'>
-				<div>
-					<SongTile imageSrc='/images/albums/beibs.jpg' />
-				</div>
-				<div class='songtile'>Manila Grey</div>
-				<div class='songtile'>
-					<img alt='Travis Scott Beibs in the trap' src='/images/albums/beibs.jpg'></img>
-					Travis Bop
-				</div>
-				<div class='songtile'>Chelo</div>
+				{/* 
+
+					let dataFromDatabase = sql.getData('songs')
+					const dataSource = parseIntoJsArray(dataFromDatabase);
+					
+					dataSource.map((data) => {
+						<SongTile imageSrc = data.pathToImage songTitle = data.songTitle etc.../>
+					})
+
+				*/}
+				<SongTile songTitle='Travis Bop' imageSrc='/images/albums/beibs.jpg' />
+				<SongTile songTitle='Butterfly' imageSrc='/images/albums/loona.jpg' />
+				<SongTile songTitle='Travis Bop #3' imageSrc='/images/albums/beibs.jpg' />
 			</div>
 		);
 	}
