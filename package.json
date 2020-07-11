@@ -7,9 +7,13 @@
 		"@testing-library/react": "^9.3.2",
 		"@testing-library/user-event": "^7.1.2",
 		"fast-average-color": "^6.0.2",
+		"express": "^4.17.1",
+		"morgan": "^1.10.0",
+		"mysql2": "^2.1.0",
 		"react": "^16.13.1",
 		"react-dom": "^16.13.1",
-		"react-scripts": "3.4.1"
+		"react-scripts": "3.4.1",
+		"sequelize": "^6.3.3"
 	},
 	"scripts": {
 		"start": "react-scripts start",

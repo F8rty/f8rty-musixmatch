@@ -26,6 +26,12 @@ class SidePanelView extends React.Component {
 				<div>
 					<SongTile imageSrc='/images/albums/beibs.jpg' />
 				</div>
+				<div class='songtile'>Manila Grey</div>
+				<div class='songtile'>
+					<img alt='Travis Scott Beibs in the trap' src='/images/albums/beibs.jpg'></img>
+					Travis Bop
+				</div>
+				<div class='songtile'>Chelo</div>
 			</div>
 		);
 	}

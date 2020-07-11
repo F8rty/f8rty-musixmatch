@@ -1,0 +1,12 @@
+{
+	"database": {
+		"username": "",
+		"password": "",
+		"database": "",
+		"host": "",
+		"dialect": "mysql",
+		"define": {
+			"timestamps": false
+		}
+	}
+}
