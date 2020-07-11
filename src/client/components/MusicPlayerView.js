@@ -1,9 +1,11 @@
 import React from 'react';
 
-function MusicPlayerView() {
+function MusicPlayerView(props) {
 	return (
 		<>
-			<div>This is the music player view.</div>
+			<div>
+				<div>Music Player Area</div>
+			</div>
 		</>
 	);
 }
