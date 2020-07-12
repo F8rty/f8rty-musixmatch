@@ -1,8 +1,11 @@
 import React from 'react';
+import ShakaPlayer from 'shaka-player-react';
 
 function MusicPlayerView(props) {
 	const marginLeft = props.sidePanelMinWidth + 'rem';
 	return (
+
+
 		<div id={props.componentId} className='musicPlayerView' style={{ marginLeft: marginLeft }}>
 			<div>Music Player Area</div>
 
@@ -12,7 +15,10 @@ function MusicPlayerView(props) {
 					<div className='rightButton'>Right</div>
 				</div>
 			</footer> */}
+
+			<ShakaPlayer autoPlay src="audio/beibs.mp3" />
 		</div>
 	);
 }
+
 export default MusicPlayerView;
