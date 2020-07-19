@@ -18,7 +18,9 @@ function F8RTYMusicPlayer(props) {
 			<MusicPlayerView componentId='musicPlayerView' sidePanelMinWidth={sidePanelMinWidth} />
 		</div>
 	);
+
 }
+
 
 function validateProps(props) {
 	if (props.sidePanelMinWidth < 15 || props.sidePanelMinWidth > 35) {
